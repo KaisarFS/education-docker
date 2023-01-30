@@ -6,7 +6,7 @@ Dengan docker, tidak lagi ada alasan "tadi di komputer saya jalan kok". Docker m
 
 ## Docker Basic Command
 
-Overall kalian bisa pelajari dengan bantuan `--help` untuk setiap command. Misalnya: `docker --help` akan keluar command apa saja yang tersedia.
+Overall kita pelajari dengan bantuan `--help` untuk setiap command. Misalnya: `docker --help` akan keluar command apa saja yang tersedia.
 
 ### Images
 
@@ -77,7 +77,7 @@ CMD ["npm", "run", "start"]
 
 ```
 
-Kalian juga bisa membuat .dockerignore supaya dalam container tidak berisi hal yang tidak diperlukan:
+Kita juga bisa membuat .dockerignore supaya dalam container tidak berisi hal yang tidak diperlukan:
 
 ```.dockerignore
 node_modules
